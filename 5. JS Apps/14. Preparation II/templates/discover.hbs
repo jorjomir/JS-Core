@@ -1,0 +1,13 @@
+{{> header}}
+{{> navigation}}
+<section id="viewDiscover">
+        <div class="content">
+            <div class="chirps">
+                <h2 class="titlebar">Discover</h2>
+                {{#each users}}
+                {{> usersInDiscover}}
+                {{/each}}
+            </div>
+        </div>
+    </section>
+    {{> footer}}
